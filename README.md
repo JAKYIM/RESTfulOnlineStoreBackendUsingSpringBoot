@@ -16,13 +16,15 @@ This project implements core e-commerce functionalities such as user management,
 ---
 
 ## 🏗️ Project Structure
+```text
 src/
-├── controllers/ # REST API endpoints
-├── dtos/ # Data Transfer Objects
-├── entities/ # JPA entities
-├── repositories/ # Data access layer
-├── mappers/ # DTO ↔ Entity mapping
-└── StoreApplication.java
+ ├── controllers/      # REST API endpoints
+ ├── dtos/             # Data Transfer Objects
+ ├── entities/         # JPA entities
+ ├── repositories/    # Data access layer
+ ├── mappers/         # DTO ↔ Entity mapping
+ └── StoreApplication.java
+```
 
 yaml
 Copy code
@@ -88,3 +90,4 @@ Swagger / OpenAPI documentation
 
 Jakyim Jonan F
 Backend & Systems Enthusiast
+
